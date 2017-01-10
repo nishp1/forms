@@ -1,0 +1,22 @@
+{
+  "name": "form",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "draft-js": "git+https://git@github.com/nishp1/draft-js#0.9.2",
+    "draft-js-export-html": "0.5.0",
+    "draft-js-mention-plugin": "git+https://git@github.com/nishp1/draft-js-mention-plugin#v2.0.0",
+    "draft-js-plugins-editor": "2.0.0-beta1",
+    "react": "15.4.1",
+    "react-dom": "15.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

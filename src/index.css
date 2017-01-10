@@ -1,0 +1,48 @@
+button {
+    background: white;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+button + button {
+    margin-left: 10px;
+}
+
+.form-field {
+    margin-bottom: 30px;
+}
+
+.form-field-label {
+    display: block;
+    color: #575961;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 5px;
+    flex: 1 1 auto;
+}
+
+.form-field-description {
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.form-field-input {
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #c1c3c6;
+    color: #555;
+    display: block;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.38461541;
+    width: 100%;
+    outline: none;
+}
+
+.form-field-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
